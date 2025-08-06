@@ -35,10 +35,6 @@ test:
 	cargo test
 	pytest tests/ -v
 
-benchmark:
-	@echo "Running benchmarks..."
-	python benchmarks/run_benchmarks.py
-
 clean:
 	@echo "Cleaning build artifacts..."
 	cargo clean
